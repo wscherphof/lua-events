@@ -9,7 +9,7 @@ Setup [lua-loader](https://github.com/wscherphof/lua-loader) and then just `npm 
 
 ## 2. Require
 ```lua
-local EventEmitter = require("lua-events).EventEmitter
+local EventEmitter = require("lua-events").EventEmitter
 ```
 
 ## 3. Have fun
