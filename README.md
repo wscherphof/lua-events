@@ -26,6 +26,7 @@ myObj:talk()
 
 ## Limitations
 - Not the complete Node EventEmitter interface; only [on](http://nodejs.org/api/events.html#events_emitter_on_event_listener) and [emit](http://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2) (pull requests welcome ;-))
+- Only 1 listener per event, in stead of an array of listeners (probably to be fixed soonly)
 
 ## License
 [GNU Lesser General Public License (LGPL)](http://www.gnu.org/licenses/lgpl-3.0.txt)
