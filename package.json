@@ -1,6 +1,6 @@
 {
   "name": "lua-events",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Node style events for Lua",
   "main": "init.lua",
   "scripts": {

@@ -25,9 +25,11 @@ myObj:talk()
 ```
 
 ## Limitations
-- Not the complete Node EventEmitter interface; only [on](http://nodejs.org/api/events.html#events_emitter_on_event_listener) and [emit](http://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2) (pull requests welcome ;-))
+- Not the complete Node EventEmitter interface; only `on`, `emit`, and `listeners`
 
 ## History
+- Added in 0.0.5: [listeners](http://nodejs.org/api/events.html#events_emitter_listeners_event)
+- Fixed in 0.0.4: protected against emitting events w/ no listener
 - New in 0.0.3: properly have an array of listeners per event in stead of just one
 
 ## License
